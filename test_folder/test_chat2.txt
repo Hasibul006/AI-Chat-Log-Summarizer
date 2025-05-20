@@ -1,0 +1,6 @@
+User: What is artificial intelligence?
+AI: Artificial Intelligence (AI) is the simulation of human intelligence in machines.
+User: How does Python relate to AI?
+AI: Python provides many libraries like TensorFlow and PyTorch to build AI models.
+User: Can I use Python for machine learning?
+AI: Absolutely, Python is one of the most popular languages for machine learning projects.

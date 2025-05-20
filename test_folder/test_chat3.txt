@@ -1,0 +1,6 @@
+User: Can you explain NLP?
+AI: NLP is a field of AI focused on the interaction between computers and human language.
+User: Which Python libraries help with NLP?
+AI: Libraries like NLTK, spaCy, and transformers are commonly used for NLP tasks.
+User: Is Python beginner-friendly for AI?
+AI: Yes, Python's simple syntax makes it great for beginners in AI and data science.

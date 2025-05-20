@@ -81,10 +81,11 @@ def generate_summary(filepath):
 
     summary = f"""Summary of a single file:
     - The conversation had {num_total_messages} exchanges.
-    - The user asked mainly about {', '.join(topics[:3])}.
+    - The user asked mainly about {', '.join(topics[:2])}.
     - Most common keywords: {', '.join(topics)}.
     """
-    
+    with open('summarySingleFile.txt', 'w') as summary_file:
+        summary_file.write(summary)
     print(summary)
 
 
@@ -114,9 +115,12 @@ def generate_summary_form_multiple_files(folder_path):
 
     summary = f"""This the summary of multiple files:
     - The conversation had {num_total_messages} exchanges.
-    - The user asked mainly about {', '.join(topics[:3])}.
+    - The user asked mainly about {', '.join(topics[:2])}.
     - Most common keywords: {', '.join(topics)}.
     """
+
+    with open('summaryMultipleFiles.txt', 'w') as summary_file:
+        summary_file.write(summary)
 
     print(summary)
 
